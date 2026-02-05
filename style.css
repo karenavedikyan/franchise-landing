@@ -656,6 +656,78 @@ body {
     color: rgba(255, 255, 255, 0.95);
 }
 
+/* ===== CONTACT PERSON ===== */
+.contact-person {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.contact-person-photo {
+    flex-shrink: 0;
+}
+
+.person-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--color-green-bright);
+    box-shadow: 0 5px 20px rgba(0, 166, 81, 0.3);
+}
+
+.contact-person-info {
+    flex: 1;
+}
+
+.person-name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--color-white);
+    margin-bottom: 8px;
+}
+
+.person-position {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 15px;
+}
+
+.person-contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.person-contact {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--color-white);
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    padding: 8px 0;
+}
+
+.person-contact:hover {
+    color: var(--color-green-light);
+    transform: translateX(5px);
+}
+
+.person-contact-icon {
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+}
+
 .contacts-details {
     display: flex;
     flex-direction: column;
@@ -972,6 +1044,21 @@ body {
         grid-template-columns: 1fr;
     }
     
+    .contact-person {
+        flex-direction: column;
+        text-align: center;
+        padding: 25px;
+    }
+    
+    .person-photo {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .person-contacts {
+        align-items: center;
+    }
+    
     .process-step {
         flex-direction: column;
         gap: 20px;
@@ -1011,5 +1098,22 @@ body {
     
     .contacts-form-wrapper {
         padding: 30px 20px;
+    }
+    
+    .contact-person {
+        padding: 20px;
+    }
+    
+    .person-photo {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .person-name {
+        font-size: 20px;
+    }
+    
+    .person-contact {
+        font-size: 14px;
     }
 }
