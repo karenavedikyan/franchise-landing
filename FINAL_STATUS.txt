@@ -1,0 +1,32 @@
+✅ ЛЕНДИНГ ФРАНШИЗЫ ГОТОВ К ПУБЛИКАЦИИ
+
+📁 Расположение: /Users/karenavedikyan/testcursor/franchise
+
+📦 Что готово:
+✅ Все файлы созданы и закоммичены
+✅ Git репозиторий инициализирован
+✅ Remote настроен: https://github.com/karenavedikyan/franchise-landing.git
+✅ GitHub Actions workflow для автоматического деплоя
+✅ Инструкции по публикации
+
+🚀 Осталось сделать:
+
+1. Создать репозиторий на GitHub:
+   👉 https://github.com/new?name=franchise-landing&public=true
+
+2. Отправить код:
+   cd /Users/karenavedikyan/testcursor/franchise
+   git push -u origin main
+
+3. Включить GitHub Pages:
+   👉 https://github.com/karenavedikyan/franchise-landing/settings/pages
+   Source: Deploy from a branch
+   Branch: main
+   Folder: / (root)
+
+🌐 После этого сайт будет доступен:
+   https://karenavedikyan.github.io/franchise-landing/
+
+📋 Все команды в одном месте:
+   ./auto_push.sh - автоматическая отправка после создания репозитория
+   ./create_and_publish.sh - полный процесс с GitHub CLI (если установлен)
