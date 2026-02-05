@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <!-- Фон -->
+  <rect width="400" height="400" fill="#006633"/>
+  
+  <!-- Градиент для глубины -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#008a43;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#004d26;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00d084;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="400" height="400" fill="url(#bgGradient)"/>
+  
+  <!-- Декоративный круг -->
+  <circle cx="200" cy="200" r="180" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="2"/>
+  <circle cx="200" cy="200" r="150" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  
+  <!-- Инициалы ДГ -->
+  <text x="200" y="240" font-family="Arial, sans-serif" font-size="120" font-weight="bold" 
+        fill="url(#textGradient)" text-anchor="middle" dominant-baseline="middle" 
+        letter-spacing="-5">ДГ</text>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="200" cy="120" r="8" fill="rgba(255,255,255,0.3)"/>
+  <circle cx="200" cy="280" r="8" fill="rgba(255,255,255,0.3)"/>
+</svg>
