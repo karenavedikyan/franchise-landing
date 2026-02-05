@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Проверка фотографии</title>
+    <style>
+        body { padding: 20px; font-family: Arial; }
+        img { border: 2px solid #00a651; border-radius: 50%; width: 200px; height: 200px; object-fit: cover; }
+    </style>
+</head>
+<body>
+    <h1>Проверка фотографии</h1>
+    <p>Путь: images/dmitry-goncharenko.jpg</p>
+    <img src="dmitry-goncharenko.jpg" alt="Test" onerror="alert('Ошибка загрузки!')">
+    <p>Если фото не видно, проверьте:</p>
+    <ul>
+        <li>Файл существует в папке images/</li>
+        <li>Формат файла правильный (JPG, PNG)</li>
+        <li>Размер файла больше 0 байт</li>
+    </ul>
+</body>
+</html>

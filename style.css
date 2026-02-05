@@ -680,6 +680,8 @@ body {
     object-fit: cover;
     border: 3px solid var(--color-green-bright);
     box-shadow: 0 5px 20px rgba(0, 166, 81, 0.3);
+    display: block;
+    background-color: var(--color-green-dark);
 }
 
 .contact-person-info {
