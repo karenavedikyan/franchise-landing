@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Включение GitHub Pages</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .button {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #00a651;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px 5px;
+            font-weight: 600;
+        }
+        .button:hover {
+            background: #00d084;
+        }
+        .info {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>🚀 Включение GitHub Pages</h1>
+    
+    <div class="info">
+        <p><strong>Автоматическое включение GitHub Pages:</strong></p>
+        <ol>
+            <li>Нажмите кнопку ниже</li>
+            <li>В открывшемся окне настройте:
+                <ul>
+                    <li><strong>Source:</strong> Deploy from a branch</li>
+                    <li><strong>Branch:</strong> main</li>
+                    <li><strong>Folder:</strong> /franchise</li>
+                </ul>
+            </li>
+            <li>Нажмите <strong>Save</strong></li>
+        </ol>
+    </div>
+    
+    <a href="https://github.com/karenavedikyan/testcursor/settings/pages" 
+       target="_blank" 
+       class="button">
+        Открыть настройки GitHub Pages
+    </a>
+    
+    <script>
+        // Автоматическое открытие в новой вкладке
+        window.onload = function() {
+            // Можно раскомментировать для автоматического открытия:
+            // window.open('https://github.com/karenavedikyan/testcursor/settings/pages', '_blank');
+        };
+    </script>
+</body>
+</html>
