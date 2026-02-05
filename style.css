@@ -396,18 +396,7 @@ body {
 
 .advantage-item {
     text-align: center;
-    padding: 40px 30px;
-    background-color: rgba(255, 255, 255, 0.05);
-    border-radius: 10px;
-    border: 1px solid rgba(0, 166, 81, 0.2);
-    transition: all 0.3s ease;
-}
-
-.advantage-item:hover {
-    transform: translateY(-5px);
-    border-color: var(--color-green-bright);
-    background-color: rgba(0, 166, 81, 0.1);
-    box-shadow: 0 10px 30px rgba(0, 166, 81, 0.2);
+    padding: 30px;
 }
 
 .advantage-icon {
